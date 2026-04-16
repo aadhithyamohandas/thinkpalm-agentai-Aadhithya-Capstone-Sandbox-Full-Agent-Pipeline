@@ -1,7 +1,7 @@
 # 🏎️ Capstone Sandbox — Full Agent Pipeline (F1 Race Strategy Agent)
 
 **Name:** Aadhithya M  
-**Track:** [Insert Your Track Here - e.g., Python AI]  
+**Track:** Python AI  
 **Lab Name:** Capstone Sandbox — Full Agent Pipeline  
 
 ## 🎯 What it does

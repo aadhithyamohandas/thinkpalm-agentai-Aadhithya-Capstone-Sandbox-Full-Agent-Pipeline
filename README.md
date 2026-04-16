@@ -8,7 +8,7 @@
 This is a multi-agent AI system that acts as an F1 Pit Stop Strategist. Given race conditions, it recommends the optimal pit stop strategy. It uses 4 specialized AI agents working together via a ReAct loop, 4 tools (including 2 live APIs), and features persistent cross-session memory backed by a SQLite database. 
 
 ##  Tools Used
-1. **Google Gemini / Groq LLM:** Large Language Model powering the reasoning.
+1. **Groq LLM:** Large Language Model powering the reasoning.
 2. **Open-Meteo API:** Used as a live tool to fetch real-time track weather.
 3. **Jolpica F1 API:** Used as a live tool to fetch historical pit stop data.
 4. **Streamlit:** Powers the interactive, dark-themed UI.

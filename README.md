@@ -1,10 +1,10 @@
-# 🏎️ Capstone Sandbox — Full Agent Pipeline (F1 Race Strategy Agent)
+#  Capstone Sandbox — Full Agent Pipeline (F1 Race Strategy Agent)
 
 **Name:** Aadhithya Mohandas
 **Track:** Backend Dev  
 **Lab Name:** Capstone Sandbox — Full Agent Pipeline  
 
-## 🎯 What it does
+##  What it does
 This is a multi-agent AI system that acts as an F1 Pit Stop Strategist. Given race conditions, it recommends the optimal pit stop strategy. It uses 4 specialized AI agents working together via a ReAct loop, 4 tools (including 2 live APIs), and features persistent cross-session memory backed by a SQLite database. 
 
 ## 🛠️ Tools Used
@@ -14,12 +14,12 @@ This is a multi-agent AI system that acts as an F1 Pit Stop Strategist. Given ra
 4. **Streamlit:** Powers the interactive, dark-themed UI.
 5. **SQLite:** Backs the persistent session memory and strategy history.
 
-## 👀 Observations
+##  Observations
 - The ReAct loop (Thought -> Action -> Observation -> Answer) proved highly effective for chaining the APIs (getting weather, then fetching track data, then running the simulation).
 - The Streamlit UI made it very easy to display the ReAct thought process live to the user.
 - Implementing cross-session memory via SQLite dramatically improved the user experience, allowing the agent to remember user preferences across different runs.
 
-## 🚀 How to Run
+##  How to Run
 
 1. Install dependencies:
    `pip install -r requirements.txt`

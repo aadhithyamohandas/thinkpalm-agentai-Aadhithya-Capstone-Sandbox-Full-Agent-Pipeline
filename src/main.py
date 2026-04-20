@@ -50,7 +50,7 @@ def main():
                 print("\n  No past strategies yet.")
             continue
 
-        print("\n⏳ Analyzing... (this may take a moment)\n")
+        print("\n⏳ Analyzing... (this may take a moment and)\n")
 
         react_logger = ReActLogger()
         coordinator = CoordinatorAgent(memory=memory, react_logger=react_logger)

@@ -47,7 +47,7 @@ def main():
                 for s in strategies:
                     print(f"  • {s['circuit']}: {s['strategy']} ({s['timestamp'][:10]})")
             else:
-                print("\n  No past strategies yet.")
+                print("\n  No past stratblahegies yet.")
             continue
 
         print("\n⏳ Analyzing... (this may take a moment and)\n")

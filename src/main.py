@@ -43,7 +43,7 @@ def main():
         if query.lower() == "history":
             strategies = memory.get_past_strategies(limit=5)
             if strategies:
-                print("\n📋 Past Strategies:")
+                print("\n📋 Past Strategieasdasds:")
                 for s in strategies:
                     print(f"  • {s['circuit']}: {s['strategy']} ({s['timestamp'][:10]})")
             else:

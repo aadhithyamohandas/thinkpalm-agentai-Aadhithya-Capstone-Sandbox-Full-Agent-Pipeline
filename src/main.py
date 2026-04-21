@@ -32,7 +32,7 @@ def main():
         try:
             query = input("\n🏁 You: ").strip()
         except (KeyboardInterrupt, EOFError):
-            print("\n\nGoodbye! 🏁")
+            print("\n\nGoodbyeasdasd! 🏁")
             break
 
         if not query:

@@ -38,7 +38,7 @@ def main():
         if not query:
             continue
         if query.lower() in ("quit", "exit", "q"):
-            print("\nGoodbye! 🏁")
+            print("\nGoodbyeasdasd! 🏁")
             break
         if query.lower() == "history":
             strategies = memory.get_past_strategies(limit=5)

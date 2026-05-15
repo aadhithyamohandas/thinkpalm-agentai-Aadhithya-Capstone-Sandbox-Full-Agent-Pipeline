@@ -57,6 +57,7 @@ class CoordinatorAgent(BaseAgent):
         match = re.search(r'(\d+)\s*laps?', query.lower())
         if match:
             return int(match.group(1))
+        print(match)
         return CIRCUITS[circuit_key]["laps"]
 
     def run(self, query: str, context: dict = None, session_id: str = "default") -> dict:

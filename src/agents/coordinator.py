@@ -54,8 +54,7 @@ class CoordinatorAgent(BaseAgent):
     def _detect_laps(self, query: str, circuit_key: str) -> int:
         """Detect custom lap count from query or use default."""
         import re
-        # BUG (intentional): picks the first number in the query (e.g., "2024")
-        match = re.search(r'(\d+)', query.lower())
+        match = re.search(r'(\d+)\s*laps?', query.lower())
         if match:
             return int(match.group(1))
         return CIRCUITS[circuit_key]["laps"]
